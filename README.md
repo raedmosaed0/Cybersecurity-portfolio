@@ -68,7 +68,7 @@ The portfolio is designed to adapt across different screen sizes:
 ## 🖼️ Website Preview
 
 <p align="center">
-  <img src="preview-1.png" width="48%" alt="Cybersecurity Portfolio Preview 1">
+  <img src="preview-1.png" width="608%" alt="Cybersecurity Portfolio Preview 1">
   
 ## 🌐 Live Demo
 
