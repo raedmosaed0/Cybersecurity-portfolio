@@ -2,6 +2,8 @@
   <img src="banner.png" width="75%" alt="Cybersecurity">
 </div>
 
+---
+
 # 🛡️ Cybersecurity Portfolio
 
 A modern **Cybersecurity Portfolio Website** built with a dark terminal-inspired interface and a futuristic security-focused visual style.
