@@ -4,13 +4,15 @@
 
 <br>
 
+<div align="center">
+
 # 🛡️ Cybersecurity Portfolio
 
 A modern **Cybersecurity Portfolio Website** with a terminal-inspired interface, futuristic visuals, and a security-focused design.
 
 **Skills • Projects • Tools • Certifications • Experience**
 
----
+</div>
 
 ## ✨ Overview
 
@@ -48,23 +50,14 @@ The visual identity uses:
 
 **Dark backgrounds · Green accents · Monospace typography · Terminal elements · Glow effects · Smooth animations**
 
----
-
 ## ⚙️ Tech Stack
 
-`HTML5`
-
-`CSS3`
-
-`JavaScript`
-
-`Canvas API`
-
-`CSS Animations`
-
-`Responsive Design`
-
----
+* HTML5
+* CSS3
+* JavaScript
+* Canvas API
+* CSS Animations
+* Responsive Design
 
 ## 📱 Responsive Design
 
@@ -72,13 +65,10 @@ The portfolio is designed to adapt across different screen sizes:
 
 **Desktop · Laptop · Tablet · Mobile**
 
----
-
 ## 🖼️ Website Preview
 
 ![Cybersecurity Portfolio Preview](preview.png)
 
----
 
 ## 🌐 Live Demo
 
@@ -86,7 +76,7 @@ The portfolio is designed to adapt across different screen sizes:
 
 ---
 
-## 👨‍💻 Developer
+## </> Developer
 
 **Developed by Raed Mosaed**
 
