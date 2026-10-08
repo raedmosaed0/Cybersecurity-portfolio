@@ -69,7 +69,7 @@ The portfolio is designed to adapt across different screen sizes:
 
 <p align="center">
   <img src="preview-1.png" width="608%" alt="Cybersecurity Portfolio Preview 1">
-  
+
 ## 🌐 Live Demo
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Website-22C55E?style=for-the-badge\&labelColor=0A0F0A)](https://cybersecurity-portfolio1.vercel.app/)
@@ -78,8 +78,8 @@ The portfolio is designed to adapt across different screen sizes:
 
 ## </> Developer
 
-**Developed by Raed Mosaed**
+**Developed by [Raed Mosaed](https://github.com/raedmosaed0)**
 
 ---
 
-© 2026 **Raed Mosaed**
+© 2026  Cybersecurity Portfolio
