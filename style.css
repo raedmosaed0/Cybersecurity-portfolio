@@ -12,7 +12,7 @@ nav a{text-decoration:none;color:var(--dim)}
 nav a:hover,nav a:focus-visible{color:var(--g);outline:none;text-shadow:0 0 8px var(--g)}
 .p{color:var(--g);font-weight:700}
 .p::before{content:"root@you:~$ ";color:var(--dim);font-weight:400}
-pre.banner{color:var(--g);font-size:clamp(6px,1.7vw,13px);line-height:1.15;margin:34px 0 10px;text-shadow:0 0 10px rgba(43,255,119,.5);overflow:hidden}
+pre.banner{color:var(--g);font-size:clamp(6px,2vw,14px);line-height:1.15;margin:34px 0 10px;text-shadow:0 0 10px rgba(43,255,119,.5);overflow:hidden}
 #boot{min-height:150px;white-space:pre-wrap;margin:0 0 6px}
 .ok{color:var(--g)}.warn{color:var(--amber)}
 .cursor{display:inline-block;width:.6em;height:1.1em;background:var(--g);vertical-align:text-bottom;animation:bl 1s steps(1) infinite}
