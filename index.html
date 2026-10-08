@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; base-uri 'none'; form-action 'none'; connect-src 'none'">
+<meta name="referrer" content="no-referrer">
+<meta name="description" content="Ethical hacker portfolio: authorized penetration testing, bug bounty and responsible disclosure.">
+<title>Your Name — Ethical Hacker</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="rain" aria-hidden="true"></canvas>
+<div class="wrap">
+<nav aria-label="Main"><a href="#projects">./projects</a><a href="#stats">./stats</a><a href="#ethics">./ethics</a><a href="#timeline">./timeline</a><a href="#tools">./tools</a><a href="#skills">./skills</a><a href="#certs">./certs</a><a href="#contact">./contact</a></nav>
+
+<pre class="banner" aria-label="Your Name">
+██╗   ██╗ ██████╗ ██╗   ██╗██████╗     ███╗   ██╗ █████╗ ███╗   ███╗███████╗
+╚██╗ ██╔╝██╔═══██╗██║   ██║██╔══██╗    ████╗  ██║██╔══██╗████╗ ████║██╔════╝
+ ╚████╔╝ ██║   ██║██║   ██║██████╔╝    ██╔██╗ ██║███████║██╔████╔██║█████╗
+  ╚██╔╝  ██║   ██║██║   ██║██╔══██╗    ██║╚██╗██║██╔══██║██║╚██╔╝██║██╔══╝
+   ██║   ╚██████╔╝╚██████╔╝██║  ██║    ██║ ╚████║██║  ██║██║ ╚═╝ ██║███████╗
+   ╚═╝    ╚═════╝  ╚═════╝ ╚═╝  ╚═╝    ╚═╝  ╚═══╝╚═╝  ╚═╝╚═╝     ╚═╝╚══════╝</pre>
+<div id="boot" aria-live="off"></div><span class="cursor" aria-hidden="true"></span>
+<noscript><p>Ethical hacker: authorized penetration testing, bug bounty, responsible disclosure.</p></noscript>
+<p class="tag">Rules of engagement, classified: <button class="redact" aria-pressed="false">authorized scope only</button> <button class="redact" aria-pressed="false">responsible disclosure</button> <button class="redact" aria-pressed="false">do no harm</button> (click to declassify)</p>
+
+<section id="stats">
+<h2 class="p">cat stats.log</h2>
+<div class="stats">
+<div class="stat"><b>6+</b><span>years on Linux</span></div>
+<div class="stat"><b>120+</b><span>CTF challenges solved</span></div>
+<div class="stat"><b>15</b><span>valid bug reports</span></div>
+<div class="stat"><b>40+</b><span>lab machines rooted</span></div>
+<div class="stat"><b>25</b><span>public write-ups</span></div>
+</div>
+</section>
+
+<section id="projects">
+<h2 class="p">ls ./projects</h2>
+<div class="pg">
+<div class="box"><h3>bug-bounty-reports</h3><p><span class="sev med">MED</span>Found and reported valid vulnerabilities through HackerOne and Bugcrowd programs. Stayed inside each program's scope and waited for the fix before sharing details.</p><span class="tag">hackerone · bugcrowd · responsible disclosure</span></div>
+<div class="box"><h3>authorized-webapp-pentest</h3><p><span class="sev crit">CRIT</span>Full pentest of a deliberately vulnerable app against the OWASP Top 10. Wrote a client-style report with proof of concept, risk rating and fixes.</p><span class="tag">burp · sqlmap · owasp</span></div>
+<div class="box"><h3>home-hacking-lab</h3><p><span class="sev info">INFO</span>Isolated lab with Kali and vulnerable VMs on a private network. Practiced recon, exploitation and privilege escalation only on machines I own.</p><span class="tag">kali · virtualbox · metasploitable</span></div>
+<div class="box"><h3>ctf-writeups</h3><p><span class="sev med">MED</span>Web, cryptography and forensics challenges from Hack The Box and TryHackMe, explained step by step so others can learn.</p><span class="tag">htb · tryhackme</span></div>
+<div class="box"><h3>active-directory-lab</h3><p><span class="sev crit">CRIT</span>Built a small AD domain and practiced Kerberoasting, pass-the-hash and privilege escalation, then wrote the detections and hardening steps for each.</p><span class="tag">bloodhound · impacket · windows server</span></div>
+<div class="box"><h3>wifi-security-audit</h3><p><span class="sev med">MED</span>Audited my own home network: WPA2 handshake capture, weak passphrase testing and router hardening checklist.</p><span class="tag">aircrack-ng · wireshark</span></div>
+<div class="box"><h3>phishing-awareness-campaign</h3><p><span class="sev info">INFO</span>Ran an approved phishing simulation for a student club and trained members to spot and report suspicious emails.</p><span class="tag">gophish · awareness training</span></div>
+<div class="box"><h3>secure-code-review</h3><p><span class="sev med">MED</span>Reviewed open source Python and PHP projects for injection and auth flaws, then sent fixes to the maintainers as pull requests.</p><span class="tag">semgrep · bandit · github</span></div>
+</div>
+<p><a href="https://github.com/your-username">github</a> | <a href="https://linkedin.com/in/your-username">linkedin</a> | <a href="#">blog</a></p>
+</section>
+
+<section id="ethics">
+<h2 class="p">cat code_of_ethics.txt</h2>
+<ul class="l"><li>I test only systems I own or have written permission to test.</li><li>I report every finding privately to the owner first.</li><li>I never touch real user data or cause downtime.</li><li>I share knowledge, not exploits for abuse.</li></ul>
+</section>
+
+<section id="skills">
+<h2 class="p">cat skills.conf</h2>
+<div class="bars">
+<div><span>linux_sysadmin</span><span class="bar"><i class="w95"></i></span></div>
+<div><span>bash_scripting</span><span class="bar"><i class="w88"></i></span></div>
+<div><span>web_pentest</span><span class="bar"><i class="w80"></i></span></div>
+<div><span>network_sec</span><span class="bar"><i class="w75"></i></span></div>
+<div><span>recon_osint</span><span class="bar"><i class="w70"></i></span></div>
+<div><span>report_writing</span><span class="bar"><i class="w60"></i></span></div>
+<div><span>python_bash</span><span class="bar"><i class="w78"></i></span></div>
+<div><span>active_directory</span><span class="bar"><i class="w65"></i></span></div>
+<div><span>reverse_eng</span><span class="bar"><i class="w50"></i></span></div>
+</div>
+</section>
+
+<section id="timeline">
+<h2 class="p">git log --oneline</h2>
+<ul class="tl">
+<li><span class="when">2026</span><h3>Bug bounty hunter</h3><p>Independent. Reports on HackerOne and Bugcrowd, all under program rules.</p></li>
+<li><span class="when">2025</span><h3>Security intern, Your Company</h3><p>Assisted with authorized web app tests and wrote findings reports.</p></li>
+<li><span class="when">2024</span><h3>CTF team member</h3><p>Competed in national and international CTFs, focused on web and cryptography.</p></li>
+<li><span class="when">2020</span><h3>Linux daily driver, 6+ years</h3><p>Moved to Linux full time: Debian, Arch and Kali, servers, shell scripting, networking. Started security learning on TryHackMe.</p></li>
+</ul>
+</section>
+
+<section id="tools">
+<h2 class="p">ls ~/github/tools</h2>
+<p class="tag">Open source tools I learned and use. Click any to open its GitHub repo.</p>
+<div class="tg">
+<h3>Recon and OSINT</h3><div class="chips"><a href="https://github.com/projectdiscovery/subfinder" target="_blank" rel="noopener noreferrer">subfinder</a><a href="https://github.com/projectdiscovery/httpx" target="_blank" rel="noopener noreferrer">httpx</a><a href="https://github.com/owasp-amass/amass" target="_blank" rel="noopener noreferrer">Amass</a><a href="https://github.com/laramies/theHarvester" target="_blank" rel="noopener noreferrer">theHarvester</a><a href="https://github.com/smicallef/spiderfoot" target="_blank" rel="noopener noreferrer">SpiderFoot</a><a href="https://github.com/sherlock-project/sherlock" target="_blank" rel="noopener noreferrer">Sherlock</a><a href="https://github.com/nmap/nmap" target="_blank" rel="noopener noreferrer">Nmap</a><a href="https://github.com/robertdavidgraham/masscan" target="_blank" rel="noopener noreferrer">Masscan</a><a href="https://github.com/RustScan/RustScan" target="_blank" rel="noopener noreferrer">RustScan</a></div>
+<h3>Web testing</h3><div class="chips"><a href="https://github.com/projectdiscovery/nuclei" target="_blank" rel="noopener noreferrer">Nuclei</a><a href="https://github.com/ffuf/ffuf" target="_blank" rel="noopener noreferrer">ffuf</a><a href="https://github.com/epi052/feroxbuster" target="_blank" rel="noopener noreferrer">feroxbuster</a><a href="https://github.com/sqlmapproject/sqlmap" target="_blank" rel="noopener noreferrer">sqlmap</a><a href="https://github.com/zaproxy/zaproxy" target="_blank" rel="noopener noreferrer">OWASP ZAP</a><a href="https://github.com/sullo/nikto" target="_blank" rel="noopener noreferrer">Nikto</a><a href="https://github.com/wpscanteam/wpscan" target="_blank" rel="noopener noreferrer">WPScan</a></div>
+<h3>Exploitation and post-exploitation</h3><div class="chips"><a href="https://github.com/rapid7/metasploit-framework" target="_blank" rel="noopener noreferrer">Metasploit</a><a href="https://github.com/fortra/impacket" target="_blank" rel="noopener noreferrer">Impacket</a><a href="https://github.com/Pennyw0rth/NetExec" target="_blank" rel="noopener noreferrer">NetExec</a><a href="https://github.com/BloodHoundAD/BloodHound" target="_blank" rel="noopener noreferrer">BloodHound</a><a href="https://github.com/lgandx/Responder" target="_blank" rel="noopener noreferrer">Responder</a><a href="https://github.com/peass-ng/PEASS-ng" target="_blank" rel="noopener noreferrer">PEASS-ng (linPEAS)</a><a href="https://github.com/DominicBreuker/pspy" target="_blank" rel="noopener noreferrer">pspy</a><a href="https://github.com/jpillora/chisel" target="_blank" rel="noopener noreferrer">Chisel</a><a href="https://github.com/nicocha30/ligolo-ng" target="_blank" rel="noopener noreferrer">Ligolo-ng</a><a href="https://github.com/bettercap/bettercap" target="_blank" rel="noopener noreferrer">Bettercap</a></div>
+<h3>Passwords and wireless</h3><div class="chips"><a href="https://github.com/hashcat/hashcat" target="_blank" rel="noopener noreferrer">Hashcat</a><a href="https://github.com/openwall/john" target="_blank" rel="noopener noreferrer">John the Ripper</a><a href="https://github.com/vanhauser-thc/thc-hydra" target="_blank" rel="noopener noreferrer">Hydra</a><a href="https://github.com/aircrack-ng/aircrack-ng" target="_blank" rel="noopener noreferrer">Aircrack-ng</a></div>
+<h3>Blue team and forensics</h3><div class="chips"><a href="https://github.com/wazuh/wazuh" target="_blank" rel="noopener noreferrer">Wazuh</a><a href="https://github.com/OISF/suricata" target="_blank" rel="noopener noreferrer">Suricata</a><a href="https://github.com/zeek/zeek" target="_blank" rel="noopener noreferrer">Zeek</a><a href="https://github.com/volatilityfoundation/volatility3" target="_blank" rel="noopener noreferrer">Volatility 3</a><a href="https://github.com/VirusTotal/yara" target="_blank" rel="noopener noreferrer">YARA</a><a href="https://github.com/SigmaHQ/sigma" target="_blank" rel="noopener noreferrer">Sigma</a><a href="https://github.com/Velocidex/velociraptor" target="_blank" rel="noopener noreferrer">Velociraptor</a><a href="https://github.com/gchq/CyberChef" target="_blank" rel="noopener noreferrer">CyberChef</a></div>
+<h3>Reverse engineering and binary</h3><div class="chips"><a href="https://github.com/NationalSecurityAgency/ghidra" target="_blank" rel="noopener noreferrer">Ghidra</a><a href="https://github.com/radareorg/radare2" target="_blank" rel="noopener noreferrer">radare2</a><a href="https://github.com/Gallopsled/pwntools" target="_blank" rel="noopener noreferrer">pwntools</a></div>
+<h3>Code and secrets scanning</h3><div class="chips"><a href="https://github.com/semgrep/semgrep" target="_blank" rel="noopener noreferrer">Semgrep</a><a href="https://github.com/PyCQA/bandit" target="_blank" rel="noopener noreferrer">Bandit</a><a href="https://github.com/aquasecurity/trivy" target="_blank" rel="noopener noreferrer">Trivy</a><a href="https://github.com/trufflesecurity/trufflehog" target="_blank" rel="noopener noreferrer">TruffleHog</a><a href="https://github.com/gitleaks/gitleaks" target="_blank" rel="noopener noreferrer">Gitleaks</a></div>
+<h3>Wordlists and payloads</h3><div class="chips"><a href="https://github.com/danielmiessler/SecLists" target="_blank" rel="noopener noreferrer">SecLists</a><a href="https://github.com/swisskyrepo/PayloadsAllTheThings" target="_blank" rel="noopener noreferrer">PayloadsAllTheThings</a></div>
+</div>
+</section>
+
+<section id="certs">
+<h2 class="p">cat certs.txt</h2>
+<ul class="l"><li>CompTIA Security+ (2025)</li><li>eJPT, INE (2025)</li><li>CEH, EC-Council (2025)</li><li>B.Sc. Computer Science, Your University (2021 - 2025)</li></ul>
+</section>
+
+<section id="contact">
+<h2 class="p">./contact --open</h2>
+<p>Open to authorized penetration tests, bug bounty collaboration, red team internships and junior security roles.</p>
+<a class="btn" href="mailto:you@example.com">send_message</a>
+</section>
+
+<footer>© 2026 Your Name. Connection closed.<br>Developed by <a href="https://github.com/raedmosaed0" target="_blank" rel="noopener noreferrer">Raed Mosaed</a></footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
