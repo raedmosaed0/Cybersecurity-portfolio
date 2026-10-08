@@ -69,14 +69,7 @@ The portfolio is designed to adapt across different screen sizes:
 
 <p align="center">
   <img src="preview-1.png" width="48%" alt="Cybersecurity Portfolio Preview 1">
-  <img src="preview-2.png" width="48%" alt="Cybersecurity Portfolio Preview 2">
-</p>
-
-<p align="center">
-  <img src="preview-3.png" width="48%" alt="Cybersecurity Portfolio Preview 3">
-  <img src="preview-4.png" width="48%" alt="Cybersecurity Portfolio Preview 4">
-</p>
-
+  
 ## 🌐 Live Demo
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Website-22C55E?style=for-the-badge\&labelColor=0A0F0A)](https://cybersecurity-portfolio1.vercel.app/)
