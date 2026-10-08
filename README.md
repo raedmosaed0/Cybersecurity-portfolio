@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="banner.png" width="85%" alt="Cybersecurity">
+  <img src="banner.png" width="75%" alt="Cybersecurity">
 </div>
 
 # 🛡️ Cybersecurity Portfolio
